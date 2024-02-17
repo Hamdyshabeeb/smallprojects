@@ -1,0 +1,42 @@
+.accordion {
+	max-width: 60rem;
+	background-color: #344e41;
+	color: #fff;
+	padding: 2rem;
+}
+
+.item-wrapper {
+	margin-bottom: 2rem;
+	background-color: #3a5a40;
+	padding: 1rem 2.5rem;
+}
+
+.item-wrapper:last-child {
+	margin-bottom: 0;
+}
+
+.item-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: left;
+}
+
+.item-title span {
+	font-size: 3rem;
+	font-weight: bold;
+	display: inline-block;
+	margin-left: 2rem;
+}
+.item-answer {
+	height: 0;
+	overflow: hidden;
+	transition: all 0.5s ease;
+	text-align: left;
+	color: #dad7cd;
+}
+
+.item-wrapper.active .item-answer {
+	height: 100px;
+	overflow-y: scroll;
+}
