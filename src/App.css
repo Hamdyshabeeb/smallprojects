@@ -16,7 +16,11 @@
 :root {
 	font-size: 62.5%;
 }
-
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
 body {
 	font-size: 1.6rem;
 	min-height: 100vh;
