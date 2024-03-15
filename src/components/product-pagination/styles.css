@@ -1,0 +1,26 @@
+.product-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1rem;
+	padding: 2rem;
+}
+
+.product {
+	border: 1px solid black;
+}
+
+.load-more-button {
+	margin: 2rem 0;
+}
+
+.load-more-button button {
+	padding: 1rem 4rem;
+	font-size: 1.5rem;
+	cursor: pointer;
+	border: none;
+	background-color: rgb(230, 255, 191);
+}
+
+.load-more-button button:disabled {
+	background-color: rgb(179, 179, 179);
+}
