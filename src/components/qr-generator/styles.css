@@ -1,0 +1,31 @@
+.qr-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+
+.qr-input {
+    display: flex;
+    gap: 10px;
+
+}
+
+.qr-input input {
+    flex-grow: 1;
+    padding: 0.7rem;
+    border: 2px solid #2c3222;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #2c3222
+}
+
+.qr-input button {
+    border: none;
+    padding: 1rem 1rem;
+    background-color: #233901;
+    color: #d6f8a4;
+    font-weight: 700;
+}

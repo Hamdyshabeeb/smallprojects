@@ -5,6 +5,7 @@ import StarRating from './components/star-rating/star-rating';
 import ImageSlider from './components/image-slider/imageSlider';
 import ProductPagination from './components/product-pagination/productPaginatin';
 import TreeMenu from './components/tree-nav/menu';
+import QrGenerator from './components/qr-generator/qrGenerator';
 
 function App() {
 	return (
@@ -16,6 +17,8 @@ function App() {
 			<ProductPagination limit={13} url={'https://dummyjson.com/products'} />
 
 			<TreeMenu />
+
+			<QrGenerator />
 		</div>
 	);
 }
