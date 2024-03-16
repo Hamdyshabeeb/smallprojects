@@ -6,6 +6,7 @@ import ImageSlider from './components/image-slider/imageSlider';
 import ProductPagination from './components/product-pagination/productPaginatin';
 import TreeMenu from './components/tree-nav/menu';
 import QrGenerator from './components/qr-generator/qrGenerator';
+import SwitchTheme from './components/switch-theme/switch theme';
 
 function App() {
 	return (
@@ -19,6 +20,8 @@ function App() {
 			<TreeMenu />
 
 			<QrGenerator />
+
+			<SwitchTheme />
 		</div>
 	);
 }
