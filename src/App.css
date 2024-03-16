@@ -16,11 +16,13 @@
 :root {
 	font-size: 62.5%;
 }
+
 img {
 	display: block;
 	max-width: 100%;
 	height: auto;
 }
+
 body {
 	font-size: 1.6rem;
 	min-height: 100vh;
@@ -40,6 +42,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+	padding-top: 100px
 }
 
 .flex-column {

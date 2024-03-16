@@ -7,6 +7,7 @@ import ProductPagination from './components/product-pagination/productPaginatin'
 import TreeMenu from './components/tree-nav/menu';
 import QrGenerator from './components/qr-generator/qrGenerator';
 import SwitchTheme from './components/switch-theme/switch theme';
+import ScroolIndicator from './components/scroll-indicator/scrollIndicator';
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 			<QrGenerator />
 
 			<SwitchTheme />
+			<ScroolIndicator />
 		</div>
 	);
 }

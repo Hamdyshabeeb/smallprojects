@@ -1,0 +1,25 @@
+.scroll-indicator-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #001219;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-indicator-container h2 {
+    color: #fff;
+}
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 7px;
+    width: 0%;
+    background-color: #ee9b00;
+}
