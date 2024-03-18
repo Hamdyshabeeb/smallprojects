@@ -8,6 +8,7 @@ import TreeMenu from './components/tree-nav/menu';
 import QrGenerator from './components/qr-generator/qrGenerator';
 import SwitchTheme from './components/switch-theme/switch theme';
 import ScroolIndicator from './components/scroll-indicator/scrollIndicator';
+import Tabs from './components/custom-tabs/customTabs';
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 
 			<SwitchTheme />
 			<ScroolIndicator />
+			<Tabs />
 		</div>
 	);
 }

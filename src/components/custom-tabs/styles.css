@@ -1,0 +1,27 @@
+.tab-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+
+}
+
+.tab button {
+    border: none;
+    background-color: #8ecae6;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: #023047;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+
+
+}
+
+.tab.active-tab button {
+    border-bottom: 2px solid #023047;
+
+
+    background-color: #fb8500;
+}
