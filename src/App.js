@@ -9,6 +9,7 @@ import QrGenerator from './components/qr-generator/qrGenerator';
 import SwitchTheme from './components/switch-theme/switch theme';
 import ScroolIndicator from './components/scroll-indicator/scrollIndicator';
 import Tabs from './components/custom-tabs/customTabs';
+import Modal from './components/modal-window/modal';
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 			<SwitchTheme />
 			<ScroolIndicator />
 			<Tabs />
+			<Modal />
 		</div>
 	);
 }
