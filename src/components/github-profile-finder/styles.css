@@ -1,0 +1,123 @@
+.search-github-name {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.search-github-name input {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #588157;
+    border-radius: 5px;
+    color: #344e41;
+    flex-grow: 1;
+}
+
+.search-github-name button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 2px solid #588157;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #588157;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.search-github-name button:disabled {
+    background-color: #a3b18a;
+    color: #dad7cd;
+    border-color: transparent;
+}
+
+
+.github-user-card {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    gap: 40px;
+    border: 4px solid #588157;
+    border-radius: 10px;
+    background-color: #588157;
+    padding: 20px;
+    color: #dad7cd;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.github-user-card .avatar {
+    max-width: 150px;
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+}
+
+.avatar img {
+    border-radius: 50%;
+    border: 10px solid #dad7cd
+}
+
+.github-user-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.github-user-info span {
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.github-user-info li:first-child {
+    display: grid;
+    grid-template-areas: 'name1 name2 name2 name2'
+        'link1 link1 link2 .';
+    row-gap: 5px;
+    padding-bottom: 5px;
+}
+
+.github-user-info li:first-child span:first-of-type {
+    grid-area: name1;
+}
+
+.github-user-info li:first-child span:last-of-type {
+    font-weight: 400;
+    grid-area: name2;
+}
+
+.github-user-info li:first-child a:first-of-type {
+
+    grid-area: link1
+}
+
+.github-user-info li:first-child a:last-of-type {
+    grid-area: link2
+}
+
+.github-user-info a {
+
+    display: inline-block;
+    text-decoration: underline;
+    color: #dad7cd;
+    padding-right: 10px
+}
+
+.github-user-info li:last-child {
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.github-user-info p {
+    margin: 0
+}

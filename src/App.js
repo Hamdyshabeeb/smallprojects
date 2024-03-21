@@ -10,6 +10,7 @@ import SwitchTheme from './components/switch-theme/switch theme';
 import ScroolIndicator from './components/scroll-indicator/scrollIndicator';
 import Tabs from './components/custom-tabs/customTabs';
 import Modal from './components/modal-window/modal';
+import GithubProfileFinder from './components/github-profile-finder/githubProfileFinder';
 
 function App() {
 	return (
@@ -28,6 +29,8 @@ function App() {
 			<ScroolIndicator />
 			<Tabs />
 			<Modal />
+
+			<GithubProfileFinder />
 		</div>
 	);
 }

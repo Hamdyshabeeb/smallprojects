@@ -18,6 +18,12 @@
 	font-size: 62.5%;
 }
 
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
 img {
 	display: block;
 	max-width: 100%;
