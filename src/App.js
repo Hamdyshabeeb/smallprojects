@@ -11,6 +11,7 @@ import ScroolIndicator from './components/scroll-indicator/scrollIndicator';
 import Tabs from './components/custom-tabs/customTabs';
 import Modal from './components/modal-window/modal';
 import GithubProfileFinder from './components/github-profile-finder/githubProfileFinder';
+import SearchAutoComplete from './components/search-autocomplete/searchAutocomplete';
 
 function App() {
 	return (
@@ -18,19 +19,20 @@ function App() {
 			<Accordion />
 			<RandomColor />
 			<StarRating starNumber={10} />
-			<ImageSlider url={'https://picsum.photos/v2/list'} page={1} limit={10} />
-			<ProductPagination limit={13} url={'https://dummyjson.com/products'} />
+			{/* <ImageSlider url={'https://picsum.photos/v2/list'} page={1} limit={10} /> */}
+			{/* <ProductPagination limit={13} url={'https://dummyjson.com/products'} /> */}
 
-			<TreeMenu />
+			{/* <TreeMenu /> */}
 
-			<QrGenerator />
+			{/* <QrGenerator /> */}
 
-			<SwitchTheme />
+			{/* <SwitchTheme /> */}
 			<ScroolIndicator />
-			<Tabs />
-			<Modal />
+			{/* <Tabs /> */}
+			{/* <Modal /> */}
 
-			<GithubProfileFinder />
+			{/* <GithubProfileFinder /> */}
+			<SearchAutoComplete />
 		</div>
 	);
 }

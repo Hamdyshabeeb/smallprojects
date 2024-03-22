@@ -1,0 +1,15 @@
+.matched-box li {
+    padding: 0.5rem;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+.search-users {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 5rem 0 1rem 0;
+    border: 2px solid #cdb4db;
+    border-radius: 5px;
+    color: #003049
+}

@@ -55,3 +55,7 @@ body {
 .flex-column {
 	flex-direction: column;
 }
+
+.vertical-start {
+	justify-content: flex-start
+}
