@@ -15,9 +15,9 @@ const tabsInfo = [
 
 function Tab3Generator() {
 	return (
-		<div>
-			this is content for <i>Tab4</i>
-		</div>
+		<span>
+			this is content for <i>Tab3</i>
+		</span>
 	);
 }
 
