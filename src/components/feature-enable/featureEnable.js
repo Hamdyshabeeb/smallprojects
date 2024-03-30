@@ -14,6 +14,7 @@ import TreeMenu from '../tree-nav/menu';
 import StarRating from '../star-rating/star-rating';
 import RandomColor from '../random-color/random-color';
 import Accordion from '../accordion/accordion';
+import { Fragment } from 'react';
 
 export default function FeatureEnable() {
 	const { loading, flags } = useContext(FeatureFlagContext);
@@ -44,7 +45,9 @@ export default function FeatureEnable() {
 	return (
 		<>
 			{Object.keys(featursObject).map((key) =>
-				flags[key] ? featursObject[key] : null
+				flags[key] ? (
+					<Fragment key={key}> {featursObject[key]} </Fragment>
+				) : null
 			)}
 		</>
 	);
